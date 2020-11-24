@@ -1,0 +1,44 @@
+.container-1{
+  height: 100vh;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3{
+  display: flex;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  border:1px solid black;
+
+}
+
+.flex-blackjack-row-1,  .flex-blackjack-row-2{
+  background: url('http://cheerspokernh.com/wp-content/uploads/2018/02/bigstock-poker-table-background-26587844-2-1.jpg') center;
+  color: #fff;
+}
+
+.flex-blackjack-row-1 img{
+  width: 25%;
+  height: auto;
+  padding: 10px;
+
+}
+.flex-blackjack-row-1 div{
+  padding: 10px;
+  height: 400px;
+  text-align: center;
+  flex: 1;
+  border:1px solid black;
+}
+
+.flex-blackjack-row-2 button,div{
+  padding: 10px;
+}
+
+table, th, td{
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+<!-- For Icons -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<!-- <script type="text/javascript" src="index.js"></script> -->
+    <title>BlackJack Game</title>
+  </head>
+  <body>
+    <section class="container-1">
+      <h1>BlackJack</h1>
+      <h3><span id="blackjack-result">Let's play</span></h3>
+      <div class="flex-blackjack-row-1">
+        <div id="your-box">
+          <h2>You: <span id="your-blackjack-result">0</span></h2>
+        </div>
+        <div id="dealer-box">
+          <h2>Dealer: <span id="dealer-blackjack-result">0</span></h2>
+        </div>
+      </div>
+      <div class="flex-blackjack-row-2">
+        <div>
+          <button class="btn-lg btn-primary mr-2" id="blackjack-hit-button">Hit</button>
+          <button class="btn-lg btn-warning mr-2" id="blackjack-stand-button">Stand</button>
+          <button class="btn-lg btn-danger mr-2" id="blackjack-deal-button">Deal</button>
+        </div>
+      </div>
+      <div class="flex-blackjack-row-3">
+        <table style="border: 1px black">
+          <tr>
+            <th>win</th>
+            <th>losses</th>
+            <th>draws</th>
+          </tr>
+          <tr>
+            <th><span id="wins">0</span></th>
+            <th><span id="losses">0</span></th>
+            <th><span id="draws">0</span></th>
+          </tr>
+        </table>
+      </div>
+    </section>
+<script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
